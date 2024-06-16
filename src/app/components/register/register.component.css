@@ -1,1 +1,14 @@
+.btn-s {
+    background: #3f51b5;
+    color: #fff;
+}
 
+.spacer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 40px;
+}
