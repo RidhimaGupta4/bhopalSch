@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400i');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: comfortaa, Helvetica Neue Light, Helvetica Neue,
+    Helvetica, Arial, Lucida Grande,sans-serif;
+}
+
+.flex-spacer {
+  flex: 1 1 auto;
+}
+
+.container {
+	/* margin: 20px; */
+	display: flex;
+}
+
+.FormClass {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.full-width {
+  width: 95%;
+}
+
+.half-width {
+  width: 45%;
+}
+
+mat-hint > span {
+  color: #f66257;
+}
+
+.example-card {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.open{
+  color:blue;
+}
+.closed{
+   color:darkgreen;
+}
+.ignored{
+  color:red;
+}
+.invalid{
+  color: yellow;
+}
+.progress{
+ color:indigo;
+}
+.assigned{
+  color:snow;
+}
